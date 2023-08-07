@@ -285,7 +285,7 @@ Proof.
   destruct H. reflexivity.
 Defined.
 
-(** Polymorphic lists and some operations *)
+(** * Polymorphic lists and some operations *)
 
 #[universes(template)]
 Inductive list (A : Type) : Type :=
